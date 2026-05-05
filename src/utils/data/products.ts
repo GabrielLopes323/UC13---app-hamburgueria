@@ -129,6 +129,50 @@ const MENU = [
       },
     ],
   },
+{
+  title: "Combos Especiais",
+  data: [
+    {
+      id: "8",
+      title: "Combo Dev",
+      price: 39.9,
+      description: "Hambúrguer + batata + bebida",
+      cover: require("../../assets/products/cover/10.png"),
+      thumbnail: require("../../assets/products/thumbnail/10g.png"),
+      ingredients: [
+        "1x Hambúrguer;",
+        "1x Batata;",
+        "1x Bebida;",
+      ],
+    },
+    {
+      id: "9",
+      title: "Combo Front",
+      price: 42.9,
+      description: "Hambúrguer + batata rústica + refri",
+      cover: require("../../assets/products/cover/8.png"),
+      thumbnail: require("../../assets/products/thumbnail/8.png"),
+      ingredients: [
+        "1x Hambúrguer;",
+        "1x Batata rústica;",
+        "1x Refrigerante;",
+      ],
+    },
+    {
+      id: "10",
+      title: "Combo Back",
+      price: 44.9,
+      description: "Hambúrguer duplo + fritas + bebida",
+      cover: require("../../assets/products/cover/9.png"),
+      thumbnail: require("../../assets/products/thumbnail/9.png"),
+      ingredients: [
+        "2x Carne;",
+        "1x Batata frita;",
+        "1x Bebida;",
+      ],
+    },
+  ],
+}
 ]
 
 const PRODUCTS = MENU.map((item) => item.data).flat()
